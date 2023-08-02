@@ -1,0 +1,229 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body , html{
+  overflow-x: hidden;
+}
+.nav-item{
+  margin-left: 130px;
+}
+.nav-item a{
+  font-weight: 700;
+  color: black;
+  /* font-family: 'Dancing Script', cursive; */
+  font-size: 20px;
+}
+
+.gfg{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.second-txt {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto Slab", serif;
+  margin-left: 61px;
+  font-size: 21px;
+}
+.gfg img{
+    height: 375px;
+    width: 460px;
+    padding-top: 20px;
+    margin-left: 30px;
+    padding-left: 10px;
+border-radius: 45px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.advice1 img{
+    height: 80px;
+    margin-top: 20px;
+}
+.adventure1 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+  }
+  .adventure1 img{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+
+  }
+  .centered h1{
+    font-size: 70px;
+  }
+  .centered p{
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 18px;
+  }
+  .centered button{
+    height: 57px;
+    width: 275px;
+    background-color:white; 
+    font-family: 'Prompt', sans-serif;
+    color: rgb(255, 175, 95);
+    border: 2px solid rgb(223, 162, 101) ;
+    border-radius: 30px;
+  }
+  .centered button:hover{
+    background-color:rgb(244, 171, 98) ;
+    color: white;
+    cursor: pointer;
+  }
+  .col-3{
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+
+  }
+  .starthead h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Great Vibes', cursive;
+  }
+ .row3:hover{
+  opacity: 0.1px;
+ }
+ .col-3 img:hover{
+ opacity: 0.500;
+ }
+ .col-4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+ }
+.travel{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+  background-color: rgba(243, 201, 160, 0.147);
+}
+.travel img{
+height: 200px;
+width: 272px;
+margin-top: 25px;
+border-radius: 30px;
+}
+.travel p{
+  text-align: justify;
+}
+.about p{
+  text-align: justify;
+    font-family: 'Martel', serif;
+    font-size: 17px;
+    margin-top: 20px;
+    width: 667px;
+}
+.about button{
+  height: 57px;
+  width: 250px;
+  background-color:white; 
+  font-family: 'Prompt', sans-serif;
+  color: rgb(255, 175, 95);
+  border: 2px solid rgb(223, 162, 101) ;
+  border-radius: 30px;
+}
+.about button:hover{
+  background-color:rgb(244, 171, 98) ;
+    color: white;
+    cursor: pointer;
+}
+.ab{
+  height: 478px;
+  margin-left: -78px;
+  margin-top: 10px;
+}
+
+
+@media only screen and (min-width:320px)and (max-width:1024px){
+
+  .gfg img {
+    height: 375px;
+    width: 308px;
+    padding-top: 20px;
+    margin-left: 271px;
+    padding-left: 10px;
+    margin-top: 30px;
+    border-radius: 0px;
+    
+}
+#firstimages{
+  flex-direction: column;
+}
+.second-txt {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 18rem;
+  font-size: 17px;
+}
+.advice1 img {
+  height: 80px;
+  margin-top: 20px;
+  width: 361px;
+}
+.adventure1 img {
+  height: 600px;
+  margin-top: 30px;
+}
+  #Adventure {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    width: 51rem;
+    margin-left: -15rem;
+}
+
+#abouts{
+  flex-direction: column;
+}
+.about p {
+  text-align: justify;
+  font-family: 'Martel', serif;
+  font-size: 17px;
+  margin-top: 20px;
+  width: 289px;
+}
+.ab{
+  margin-left: 214px;
+    height: 393px;
+    margin-top: 29px;
+}
+.about button {
+  height: 57px;
+  width: 250px;
+  background-color: white;
+  font-family: 'Prompt', sans-serif;
+  color: rgb(255, 175, 95);
+  border: 2px solid rgb(223, 162, 101);
+  border-radius: 30px;
+  margin-left: 30px;
+}
+#adv{
+  width: 10rem;
+}
+}
